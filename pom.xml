@@ -17,6 +17,23 @@
     </properties>
 
     <dependencies>
+        <!-- Download jar from https://algs4.cs.princeton.edu/code/algs4.jar -->
+        <!-- Install the jar locally -->
+        <!-- mvn install:install-file -Dfile=<path>/algs4.jar -DgroupId=edu.princeton.algorithm -DartifactId=algs4
+            -Dversion=4.0.0 -Dpackaging=jar -DgeneratePom=true
+        -->
+        <dependency>
+            <groupId>edu.princeton.algorithm</groupId>
+            <artifactId>algs4</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/edu.princeton.cs/algs4
+        <dependency>
+            <groupId>edu.princeton.cs</groupId>
+            <artifactId>algs4</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+        -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
